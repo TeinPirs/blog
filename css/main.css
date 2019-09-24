@@ -24,6 +24,13 @@ main {
   margin-right: auto;
   margin-top: 150px;
 }
+footer{
+  margin-top: 150px;
+  padding-top: 150px;
+  padding-bottom: 100px;
+  border-top: 2px solid #e1e1e1;
+  background-color:#F1F1F1;
+}
 
 img {
   width: 100%;
@@ -268,4 +275,26 @@ ul {
 
 a:hover {
   color: #ff5963;
+}
+
+.wrap-footer{
+  display: flex;
+  justify-content: space-between;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.email{
+ color: #8C8E91;
+ margin: 25px 0;
+
+}
+.vidget-footer{
+  width: 25%;
+  padding-right: 15px;
+}
+.footer-title{
+color:#393939;
+font-size:20px;
+font-weight: 400;
 }
